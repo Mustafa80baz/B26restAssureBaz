@@ -6,7 +6,7 @@ package com.cydeo.pojo;
     "gender": "Female",
     "phone": 1938695106}
  */
-public class spartans {
+public class Spartan {
 private int id;
 private String name;
 private String gender;
