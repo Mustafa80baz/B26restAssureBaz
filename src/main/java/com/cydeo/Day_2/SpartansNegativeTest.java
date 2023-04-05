@@ -7,14 +7,14 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static io.restassured.RestAssured.given;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static io.restassured.RestAssured.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SpartansNegativeTest {
     @BeforeAll
     public static void init(){
         // //save thisURL inside the veriable so that we dont need to type each http method
-      RestAssured.baseURI="http://54.160.103.125:8000/";
+    String baseURI="http://54.160.103.125:8000/";
     }
 @DisplayName("GET request to /api/spartans/10")
     @Test
