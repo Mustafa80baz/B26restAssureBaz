@@ -15,7 +15,7 @@ public class HrGetRequests {
     @BeforeAll
     public static  void init(){
         //save thisURL inside the veriable so that we dont need to type each http method
-        RestAssured.baseURI="http://54.160.103.125:1000/ords/hr";
+        RestAssured.baseURI="http://100.26.209.0:1000/ords/hr";
     }
     @DisplayName("Get request to /regions")
     @Test

@@ -1,7 +1,6 @@
 package com.cydeo.Day_2;
 
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -19,7 +18,7 @@ public class TesHelloAPI {
 
     @Test
     public void testHello(){
-         String baseUrl="http://54.160.103.125:8000";
+         String baseUrl="http://100.26.209.0:8000";
 
         Response response= RestAssured.when().get(baseUrl+"/api/hello");//given yok  böyle yaz
           System.out.println("response.prettyPrint() = " + response.prettyPrint());

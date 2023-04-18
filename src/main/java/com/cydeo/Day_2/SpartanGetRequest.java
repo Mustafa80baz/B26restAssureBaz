@@ -47,7 +47,7 @@ Bu da respond bölümünde Body tıklanarak bakılır Json mu XML mi?
     //printing response content Type from object
     System.out.println("response.contentType() = " + response.contentType());
 
-    //printing whole reject
+    //printing whole object
     System.out.println("response.prettyPrint() = " + response.prettyPrint());
     //how to do API test assertions
 //verify status code is 200

@@ -8,7 +8,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.greaterThan;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 
 public class ORDShamcrestTest {
     @DisplayName("GET request to Employees IT_PROG and point and chaining")

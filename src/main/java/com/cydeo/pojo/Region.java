@@ -6,10 +6,11 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.util.List;
+
 @Getter
 @Setter
 @ToString
-public class region {
+public class Region {
     //region_id  yi nasıl getRegionID olarak tanıtacağız
     @JsonProperty("region_id")
     private int regionId;
